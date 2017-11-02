@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    NSLog(@"%@",@"呵呵哒");
     // 限制输入10个字符长度
     [ZZLimitInputManager limitInputView:self.textView_1 maxLength:10];
     

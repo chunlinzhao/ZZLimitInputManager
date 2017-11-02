@@ -12,11 +12,15 @@
 
 @implementation UIView (Limit)
 
+// 多加了 个注释和空格
 - (NSInteger)limitMaxLength
 {
     NSNumber *number = objc_getAssociatedObject(self, _cmd);
     return [number integerValue];
 }
+
+
+
 
 - (void)setLimitMaxLength:(NSInteger)limitMaxLength
 {
